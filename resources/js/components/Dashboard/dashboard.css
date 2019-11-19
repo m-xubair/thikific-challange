@@ -1,0 +1,194 @@
+/* Dashboard Css Starts */
+.dashboard-section{
+    position: relative;
+    padding: 30px 0;
+    background: #fff;
+}
+.dashboard-section a.create-link{
+    display: block;
+    border-radius: 3px;
+    max-width: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 60px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,0.6);
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    transition: 0.3s all ease;
+}
+.dashboard-section a.create-link:hover{
+    text-decoration: none;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+.dashboard-section .row > div {
+    margin-bottom: 20px;
+}
+.card{
+    position: relative;
+    background: #fff;
+    border-radius: 6px;
+    display: block;
+    padding: 0 15px 10px;
+    color: #000;
+    box-shadow: 0 0 4px rgba(0,0,0,0.6);
+    height: 100%;
+    min-height: 300px;
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.card .card-top{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 8px 0;
+}
+.card .card-top a{
+    margin: 0 12px;
+    font-size: 22px;
+}
+.card .card-top a:hover{
+    text-decoration: none;
+}
+.card .card-top a:last-child{
+    margin: 0;
+}
+.card .card-top a i.fa{
+    font-size: 22px;
+    color: #000;
+}
+.card .card-image{
+    margin: 0 -15px 18px;
+}
+.card .card-image img{
+    width: 100%;
+}
+.card h4{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.card .card-model.show {
+    display: flex;
+}
+.card .card-model {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 999;
+}
+.card-model .close-link {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+}
+.card-model .card-secondary{
+    position: relative;
+    background: #fff;
+    border-radius: 6px;
+    display: block;
+    padding: 0 15px 10px;
+    color: #000;
+    box-shadow: 0 0 4px rgba(0,0,0,0.6);
+    max-width: 300px;
+    min-height: 300px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+.card-secondary .cs-img {
+    position: relative;
+    margin: 0 -15px 15px;
+}
+.card-secondary .cs-img img{
+    width: 100%;
+}
+.card-secondary .cs-img .cs-img-links{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.card-secondary .cs-img a{
+    margin: 0 6px;
+}
+.card-secondary .cs-img a:hover{
+    text-decoration: none;
+}
+.card-secondary .cs-img a:last-child{
+    margin: 0;
+}
+.card-secondary .cs-img a i.fa{
+    color: #000;
+    font-size: 22px;
+}
+.card-secondary .cs-content{
+    position: relative;
+}
+.card-secondary .cs-content .cs-audio-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card-secondary .cs-content .cs-audio-links a {
+    margin: 0 6px;
+}
+.card-secondary .cs-content a i.fa{
+    color: #000;
+    font-size: 22px;
+}
+.card-secondary .cs-content a:last-child{
+    margin: 0;
+}
+.card-secondary .cs-content a:hover{
+    text-decoration: none;
+}
+a.add-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a.add-card i.fa {
+    font-size: 36px;
+    line-height: 1;
+    color: #2e2e2e;
+    transition: 0.4s all ease;
+}
+a.add-card:hover i.fa{
+    font-size: 50px;
+}
+.card .card-audio {
+    display: flex;
+    align-items: center;
+}
+.card .card-audio a.audio-link {
+    color: #000;
+}
+.card .card-audio a.audio-link:hover{
+    text-decoration: none;
+}
+.card .card-audio a.audio-link i.fa {
+    font-size: 16px;
+}
+.card .card-audio a.audio-link span {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 6px;
+}
+/* Dashboard Css Ends */
+.ck-editor__editable_inline {
+    min-height: 400px;
+}
