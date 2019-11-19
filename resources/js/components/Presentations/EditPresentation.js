@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import CKEditor from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import { Redirect } from 'react-router-dom';
-import {usePresentationData} from '../hooks/usePresentationData';
-import {usePresentationEdit} from '../hooks/usePresentationEdit';
+import { Link } from 'react-router-dom';
+import {usePresentationData} from '../hooks/presentation/usePresentationData';
+import {usePresentationEdit} from '../hooks/presentation/usePresentationEdit';
 import Loader from '../Loader/Loader';
 function EditPresentation(props) {
     const presentationID = props.match.params.id;
+    // const [presentation, setPresentation] = useState({name: '', description: ''});
     const [name, setName] = useState('');
     const [description, setDescription] = useState('');
     const [errors, setErrors] = useState(null);
+
     // handle update api call
     const handleUpdate = () => {
         if(!name || !description) {
@@ -26,26 +28,34 @@ function EditPresentation(props) {
             }
             props.history.push('/dashboard');
         }).catch((err) =>{
-            console.log(err);
+            if(err.response && err.response.status === 400) {
+                props.history.push('/');
+            }
         })
     }
     useEffect(() => {
         // get presentation data from API
         usePresentationData(presentationID).then((response) => {
-            console.log(response);
             if(response.status === 200) {
-                setName(response.data.name);
-                setDescription(response.data.description);
+                const {name, description} = response.data;
+                setName(name);
+                setDescription(description);
             }
         }).catch((err) => {
-            props.history.push('/');
+            if(err.response && err.response.status === 400) {
+                props.history.push('/');
+            }
         });
-    },[])
+    },[]);
+
     return (
         <div className="dashboard-section">
         <div className="form-section">
             <div className="container">
-                <a onClick={() => props.history.push('/dashboard')} className="create-link"> <i className="fa fa-arrow-left"></i> Go Back</a>
+                <div className="button-container">
+                    <Link to={`/presentaion/${presentationID}/pages`} className="create-link pull-right"> <i className="fa fa-upload"></i> Manage Pages</Link>
+                    <Link to="/dashboard" className="create-link pull-right"> <i className="fa fa-arrow-left"></i> Go Back</Link>
+                </div>
                 <h3>Edit Presentation</h3>
                 <form>
                     {

@@ -1965,7 +1965,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "/* Dashboard Css Starts */\n.dashboard-section{\n    position: relative;\n    padding: 30px 0;\n    background: #fff;\n}\n.dashboard-section a.create-link{\n    display: block;\n    border-radius: 3px;\n    max-width: 200px;\n    width: 100%;\n    margin-left: auto;\n    margin-bottom: 60px;\n    background: #fff;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    text-align: center;\n    line-height: 48px;\n    font-size: 18px;\n    font-weight: 700;\n    color: #000;\n    -webkit-transition: 0.3s all ease;\n    transition: 0.3s all ease;\n}\n.dashboard-section a.create-link:hover{\n    text-decoration: none;\n    box-shadow: 0 0 8px rgba(0,0,0,0.6);\n}\n.dashboard-section .row > div {\n    margin-bottom: 20px;\n}\n.card{\n    position: relative;\n    background: #fff;\n    border-radius: 6px;\n    display: block;\n    padding: 0 15px 10px;\n    color: #000;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    height: 100%;\n    min-height: 300px;\n    max-width: 300px;\n    width: 100%;\n    margin: 0 auto;\n}\n.card .card-top{\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n            justify-content: flex-end;\n    margin: 8px 0;\n}\n.card .card-top a{\n    margin: 0 12px;\n    font-size: 22px;\n}\n.card .card-top a:hover{\n    text-decoration: none;\n}\n.card .card-top a:last-child{\n    margin: 0;\n}\n.card .card-top a i.fa{\n    font-size: 22px;\n    color: #000;\n}\n.card .card-image{\n    margin: 0 -15px 18px;\n}\n.card .card-image img{\n    width: 100%;\n}\n.card h4{\n    font-size: 18px;\n    line-height: 24px;\n    font-weight: 400;\n}\n.card .card-model.show {\n    display: -webkit-box;\n    display: flex;\n}\n.card .card-model {\n    display: none;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    position: fixed;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    left: 0;\n    background: rgba(0,0,0,0.8);\n    z-index: 999;\n}\n.card-model .close-link {\n    position: absolute;\n    top: 5%;\n    right: 5%;\n    font-size: 30px;\n    color: #fff;\n}\n.card-model .card-secondary{\n    position: relative;\n    background: #fff;\n    border-radius: 6px;\n    display: block;\n    padding: 0 15px 10px;\n    color: #000;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    max-width: 300px;\n    min-height: 300px;\n    overflow: hidden;\n    width: 100%;\n    margin: 0 auto;\n}\n.card-secondary .cs-img {\n    position: relative;\n    margin: 0 -15px 15px;\n}\n.card-secondary .cs-img img{\n    width: 100%;\n}\n.card-secondary .cs-img .cs-img-links{\n    position: absolute;\n    top: 5px;\n    right: 5px;\n}\n.card-secondary .cs-img a{\n    margin: 0 6px;\n}\n.card-secondary .cs-img a:hover{\n    text-decoration: none;\n}\n.card-secondary .cs-img a:last-child{\n    margin: 0;\n}\n.card-secondary .cs-img a i.fa{\n    color: #000;\n    font-size: 22px;\n}\n.card-secondary .cs-content{\n    position: relative;\n}\n.card-secondary .cs-content .cs-audio-links {\n    position: absolute;\n    top: 0;\n    right: 0;\n}\n.card-secondary .cs-content .cs-audio-links a {\n    margin: 0 6px;\n}\n.card-secondary .cs-content a i.fa{\n    color: #000;\n    font-size: 22px;\n}\n.card-secondary .cs-content a:last-child{\n    margin: 0;\n}\n.card-secondary .cs-content a:hover{\n    text-decoration: none;\n}\na.add-card {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n}\na.add-card i.fa {\n    font-size: 36px;\n    line-height: 1;\n    color: #2e2e2e;\n    -webkit-transition: 0.4s all ease;\n    transition: 0.4s all ease;\n}\na.add-card:hover i.fa{\n    font-size: 50px;\n}\n.card .card-audio {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.card .card-audio a.audio-link {\n    color: #000;\n}\n.card .card-audio a.audio-link:hover{\n    text-decoration: none;\n}\n.card .card-audio a.audio-link i.fa {\n    font-size: 16px;\n}\n.card .card-audio a.audio-link span {\n    font-size: 16px;\n    line-height: 24px;\n    font-weight: 400;\n    margin-left: 6px;\n}\n/* Dashboard Css Ends */\n.ck-editor__editable_inline {\n    min-height: 400px;\n}", ""]);
+exports.push([module.i, "/* Dashboard Css Starts */\n.dashboard-section{\n    position: relative;\n    padding: 30px 0;\n    background: #fff;\n}\n.dashboard-section a.create-link{\n    display: block;\n    border-radius: 3px;\n    max-width: 200px;\n    width: 100%;\n    margin-left: 15px;\n    margin-bottom: 60px;\n    background: #fff;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    text-align: center;\n    line-height: 48px;\n    font-size: 18px;\n    font-weight: 700;\n    color: #000;\n    -webkit-transition: 0.3s all ease;\n    transition: 0.3s all ease;\n}\n.dashboard-section a.create-link:hover{\n    text-decoration: none;\n    box-shadow: 0 0 8px rgba(0,0,0,0.6);\n}\n.dashboard-section .row > div {\n    margin-bottom: 20px;\n}\n.card{\n    position: relative;\n    background: #fff;\n    border-radius: 6px;\n    display: block;\n    padding: 0 15px 10px;\n    color: #000;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    height: 100%;\n    min-height: 300px;\n    max-width: 300px;\n    width: 100%;\n    margin: 0 auto;\n}\n.card .card-top{\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n            justify-content: flex-end;\n    margin: 8px 0;\n}\n.card .card-top a{\n    margin: 0 12px;\n    font-size: 22px;\n}\n.card .card-top a:hover{\n    text-decoration: none;\n}\n.card .card-top a:last-child{\n    margin: 0;\n}\n.card .card-top a i.fa{\n    font-size: 22px;\n    color: #000;\n}\n.card .card-image{\n    margin: 0 -15px 18px;\n}\n.card .card-image img{\n    width: 100%;\n}\n.card h4{\n    font-size: 18px;\n    line-height: 24px;\n    font-weight: 400;\n}\n.card .card-model.show {\n    display: -webkit-box;\n    display: flex;\n}\n.card .card-model {\n    display: none;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    position: fixed;\n    height: 100%;\n    width: 100%;\n    top: 0;\n    left: 0;\n    background: rgba(0,0,0,0.8);\n    z-index: 999;\n}\n.card-model .close-link {\n    position: absolute;\n    top: 5%;\n    right: 5%;\n    font-size: 30px;\n    color: #fff;\n}\n.card-model .card-secondary{\n    position: relative;\n    background: #fff;\n    border-radius: 6px;\n    display: block;\n    padding: 0 15px 10px;\n    color: #000;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    max-width: 300px;\n    min-height: 300px;\n    overflow: hidden;\n    width: 100%;\n    margin: 0 auto;\n}\n.card-secondary .cs-img {\n    position: relative;\n    margin: 0 -15px 15px;\n}\n.card-secondary .cs-img img{\n    width: 100%;\n}\n.card-secondary .cs-img .cs-img-links{\n    position: absolute;\n    top: 5px;\n    right: 5px;\n}\n.card-secondary .cs-img a{\n    margin: 0 6px;\n}\n.card-secondary .cs-img a:hover{\n    text-decoration: none;\n}\n.card-secondary .cs-img a:last-child{\n    margin: 0;\n}\n.card-secondary .cs-img a i.fa{\n    color: #000;\n    font-size: 22px;\n}\n.card-secondary .cs-content{\n    position: relative;\n}\n.card-secondary .cs-content .cs-audio-links {\n    position: absolute;\n    top: 0;\n    right: 0;\n}\n.card-secondary .cs-content .cs-audio-links a {\n    margin: 0 6px;\n}\n.card-secondary .cs-content a i.fa{\n    color: #000;\n    font-size: 22px;\n}\n.card-secondary .cs-content a:last-child{\n    margin: 0;\n}\n.card-secondary .cs-content a:hover{\n    text-decoration: none;\n}\na.add-card {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n}\na.add-card i.fa {\n    font-size: 36px;\n    line-height: 1;\n    color: #2e2e2e;\n    -webkit-transition: 0.4s all ease;\n    transition: 0.4s all ease;\n}\na.add-card:hover i.fa{\n    font-size: 50px;\n}\n.card .card-audio {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.card .card-audio a.audio-link {\n    color: #000;\n}\n.card .card-audio a.audio-link:hover{\n    text-decoration: none;\n}\n.card .card-audio a.audio-link i.fa {\n    font-size: 16px;\n}\n.card .card-audio a.audio-link span {\n    font-size: 16px;\n    line-height: 24px;\n    font-weight: 400;\n    margin-left: 6px;\n}\n/* Dashboard Css Ends */\n.ck-editor__editable_inline {\n    min-height: 400px;\n}\n\n.button-container {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n            justify-content: flex-end;\n}", ""]);
 
 // exports
 
@@ -60929,8 +60929,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _Presentations_Presentation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Presentations/Presentation */ "./resources/js/components/Presentations/Presentation.js");
 /* harmony import */ var _Loader_Loader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Loader/Loader */ "./resources/js/components/Loader/Loader.js");
-/* harmony import */ var _hooks_usePresentationsData__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/usePresentationsData */ "./resources/js/components/hooks/usePresentationsData.js");
-/* harmony import */ var _hooks_usePresentationDelete__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../hooks/usePresentationDelete */ "./resources/js/components/hooks/usePresentationDelete.js");
+/* harmony import */ var _hooks_presentation_usePresentationsData__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/presentation/usePresentationsData */ "./resources/js/components/hooks/presentation/usePresentationsData.js");
+/* harmony import */ var _hooks_presentation_usePresentationDelete__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../hooks/presentation/usePresentationDelete */ "./resources/js/components/hooks/presentation/usePresentationDelete.js");
 /* harmony import */ var _dashboard_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dashboard.css */ "./resources/js/components/Dashboard/dashboard.css");
 /* harmony import */ var _dashboard_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dashboard_css__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var q__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! q */ "./node_modules/q/q.js");
@@ -60964,13 +60964,13 @@ function Dashboard(props) {
       setLoading = _useState4[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    Object(_hooks_usePresentationsData__WEBPACK_IMPORTED_MODULE_4__["usePresentationsData"])().then(function (response) {
-      if (response.status === 200) {
-        setPresentation(response.data);
-        setLoading(false);
-      }
+    Object(_hooks_presentation_usePresentationsData__WEBPACK_IMPORTED_MODULE_4__["usePresentationsData"])().then(function (data) {
+      setPresentation(data);
+      setLoading(false);
     })["catch"](function (err) {
-      props.history.push('/');
+      if (err && err.status === 400) {
+        props.history.push('/');
+      }
     });
   }, []);
 
@@ -60979,13 +60979,15 @@ function Dashboard(props) {
     var newPresentations = presentations.filter(function (p) {
       return p.id !== presentation;
     });
-    Object(_hooks_usePresentationDelete__WEBPACK_IMPORTED_MODULE_5__["usePresentationDelete"])(presentation).then(function (response) {
+    Object(_hooks_presentation_usePresentationDelete__WEBPACK_IMPORTED_MODULE_5__["usePresentationDelete"])(presentation).then(function (response) {
       if (response.status === 200 && response.data.success) {
         setPresentation(newPresentations);
         setLoading(false);
       }
     })["catch"](function (err) {
-      props.history.push('/');
+      if (err.response && err.response.status === 400) {
+        props.history.push('/');
+      }
     });
   };
 
@@ -61234,7 +61236,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ckeditor/ckeditor5-build-classic */ "./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js");
 /* harmony import */ var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _hooks_usePresentationCreate__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/usePresentationCreate */ "./resources/js/components/hooks/usePresentationCreate.js");
+/* harmony import */ var _hooks_presentation_usePresentationCreate__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/presentation/usePresentationCreate */ "./resources/js/components/hooks/presentation/usePresentationCreate.js");
 /* harmony import */ var _Loader_Loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Loader/Loader */ "./resources/js/components/Loader/Loader.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
@@ -61252,37 +61254,32 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 function CreatePresentation(props) {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
+    name: '',
+    description: ''
+  }),
       _useState2 = _slicedToArray(_useState, 2),
-      name = _useState2[0],
-      setName = _useState2[1];
+      presentation = _useState2[0],
+      setPresentation = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
       _useState4 = _slicedToArray(_useState3, 2),
-      description = _useState4[0],
-      setDescription = _useState4[1];
-
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
-      _useState6 = _slicedToArray(_useState5, 2),
-      errors = _useState6[0],
-      setErrors = _useState6[1]; //Handle API requet to create new presentation.
+      errors = _useState4[0],
+      setErrors = _useState4[1]; //Handle API requet to create new presentation.
 
 
   var handleUpdate = function handleUpdate() {
     // show error if name OR description is empty
-    if (!name || !description) {
+    if (!presentation.name || !presentation.description) {
       var validation_erros = [];
-      !name ? validation_erros.push('Presentation name is required.') : null;
-      !description ? validation_erros.push('Presentation description is required') : null;
+      !presentation.name ? validation_erros.push('Presentation name is required.') : null;
+      !presentation.description ? validation_erros.push('Presentation description is required') : null;
       setErrors(validation_erros);
       return;
     } // API call to create new presentation
 
 
-    Object(_hooks_usePresentationCreate__WEBPACK_IMPORTED_MODULE_4__["usePresentationCreate"])({
-      name: name,
-      description: description
-    }).then(function (response) {
+    Object(_hooks_presentation_usePresentationCreate__WEBPACK_IMPORTED_MODULE_4__["usePresentationCreate"])(presentation).then(function (response) {
       if (response.data.errors) {
         setErrors(response.data.errors);
         return;
@@ -61290,7 +61287,9 @@ function CreatePresentation(props) {
 
       props.history.push('/dashboard');
     })["catch"](function (err) {
-      console.log(err);
+      if (err.response && err.response.status === 400) {
+        props.history.push('/');
+      }
     });
   };
 
@@ -61316,27 +61315,32 @@ function CreatePresentation(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
     className: "form-control",
-    value: name,
+    value: presentation.name,
     onChange: function onChange(e) {
-      return setName(e.target.value);
+      return setPresentation({
+        name: e.target.value,
+        description: presentation.description
+      });
     },
     placeholder: "Presentation Name"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "form-group"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ckeditor_ckeditor5_react__WEBPACK_IMPORTED_MODULE_1___default.a, {
     editor: _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_2___default.a,
-    data: description,
+    data: presentation.description,
     onInit: function onInit(editor) {// You can store the "editor" and use when it is needed.
     },
     onChange: function onChange(event, editor) {
       var data = editor.getData();
-      setDescription(data);
+      setPresentation({
+        name: presentation.name,
+        description: data
+      });
     }
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     type: "button",
     onClick: handleUpdate,
-    className: "btn btn-primary",
-    disabled: !name && !description ? true : false
+    className: "btn btn-primary"
   }, "Submit")))));
 }
 
@@ -61360,8 +61364,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ckeditor/ckeditor5-build-classic */ "./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js");
 /* harmony import */ var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _hooks_usePresentationData__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/usePresentationData */ "./resources/js/components/hooks/usePresentationData.js");
-/* harmony import */ var _hooks_usePresentationEdit__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../hooks/usePresentationEdit */ "./resources/js/components/hooks/usePresentationEdit.js");
+/* harmony import */ var _hooks_presentation_usePresentationData__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/presentation/usePresentationData */ "./resources/js/components/hooks/presentation/usePresentationData.js");
+/* harmony import */ var _hooks_presentation_usePresentationEdit__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../hooks/presentation/usePresentationEdit */ "./resources/js/components/hooks/presentation/usePresentationEdit.js");
 /* harmony import */ var _Loader_Loader__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Loader/Loader */ "./resources/js/components/Loader/Loader.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
@@ -61380,7 +61384,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 function EditPresentation(props) {
-  var presentationID = props.match.params.id;
+  var presentationID = props.match.params.id; // const [presentation, setPresentation] = useState({name: '', description: ''});
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
       _useState2 = _slicedToArray(_useState, 2),
@@ -61407,7 +61411,7 @@ function EditPresentation(props) {
       return;
     }
 
-    Object(_hooks_usePresentationEdit__WEBPACK_IMPORTED_MODULE_5__["usePresentationEdit"])(presentationID, {
+    Object(_hooks_presentation_usePresentationEdit__WEBPACK_IMPORTED_MODULE_5__["usePresentationEdit"])(presentationID, {
       name: name,
       description: description
     }).then(function (response) {
@@ -61418,21 +61422,26 @@ function EditPresentation(props) {
 
       props.history.push('/dashboard');
     })["catch"](function (err) {
-      console.log(err);
+      if (err.response && err.response.status === 400) {
+        props.history.push('/');
+      }
     });
   };
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     // get presentation data from API
-    Object(_hooks_usePresentationData__WEBPACK_IMPORTED_MODULE_4__["usePresentationData"])(presentationID).then(function (response) {
-      console.log(response);
-
+    Object(_hooks_presentation_usePresentationData__WEBPACK_IMPORTED_MODULE_4__["usePresentationData"])(presentationID).then(function (response) {
       if (response.status === 200) {
-        setName(response.data.name);
-        setDescription(response.data.description);
+        var _response$data = response.data,
+            _name = _response$data.name,
+            _description = _response$data.description;
+        setName(_name);
+        setDescription(_description);
       }
     })["catch"](function (err) {
-      props.history.push('/');
+      if (err.response && err.response.status === 400) {
+        props.history.push('/');
+      }
     });
   }, []);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -61441,14 +61450,19 @@ function EditPresentation(props) {
     className: "form-section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    onClick: function onClick() {
-      return props.history.push('/dashboard');
-    },
-    className: "create-link"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button-container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/presentaion/".concat(presentationID, "/pages"),
+    className: "create-link pull-right"
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-upload"
+  }), " Manage Pages"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/dashboard",
+    className: "create-link pull-right"
   }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-arrow-left"
-  }), " Go Back"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Edit Presentation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, errors ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), " Go Back")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Edit Presentation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, errors ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "alert alert-danger"
   }, errors.map(function (err) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, err);
@@ -61590,10 +61604,10 @@ function Token(props) {
 
 /***/ }),
 
-/***/ "./resources/js/components/hooks/usePresentationCreate.js":
-/*!****************************************************************!*\
-  !*** ./resources/js/components/hooks/usePresentationCreate.js ***!
-  \****************************************************************/
+/***/ "./resources/js/components/hooks/presentation/usePresentationCreate.js":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/hooks/presentation/usePresentationCreate.js ***!
+  \*****************************************************************************/
 /*! exports provided: usePresentationCreate */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -61602,22 +61616,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "usePresentationCreate", function() { return usePresentationCreate; });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _useAuthHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../useAuthHeader */ "./resources/js/components/hooks/useAuthHeader.js");
 
-var options = {
-  headers: {
-    'Authorization': 'Bearer ' + localStorage.getItem('_token')
-  }
-};
+
 var usePresentationCreate = function usePresentationCreate(data) {
-  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post("/api/presentations", data, options);
+  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post("/api/presentations", data, Object(_useAuthHeader__WEBPACK_IMPORTED_MODULE_1__["useAuthHeader"])());
 };
 
 /***/ }),
 
-/***/ "./resources/js/components/hooks/usePresentationData.js":
-/*!**************************************************************!*\
-  !*** ./resources/js/components/hooks/usePresentationData.js ***!
-  \**************************************************************/
+/***/ "./resources/js/components/hooks/presentation/usePresentationData.js":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/hooks/presentation/usePresentationData.js ***!
+  \***************************************************************************/
 /*! exports provided: usePresentationData */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -61626,22 +61637,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "usePresentationData", function() { return usePresentationData; });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _useAuthHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../useAuthHeader */ "./resources/js/components/hooks/useAuthHeader.js");
 
-var options = {
-  headers: {
-    'Authorization': 'Bearer ' + localStorage.getItem('_token')
-  }
-};
+
 var usePresentationData = function usePresentationData(id) {
-  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get("/api/presentations/".concat(id, "/edit"), options);
+  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get("/api/presentations/".concat(id, "/edit"), Object(_useAuthHeader__WEBPACK_IMPORTED_MODULE_1__["useAuthHeader"])());
 };
 
 /***/ }),
 
-/***/ "./resources/js/components/hooks/usePresentationDelete.js":
-/*!****************************************************************!*\
-  !*** ./resources/js/components/hooks/usePresentationDelete.js ***!
-  \****************************************************************/
+/***/ "./resources/js/components/hooks/presentation/usePresentationDelete.js":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/hooks/presentation/usePresentationDelete.js ***!
+  \*****************************************************************************/
 /*! exports provided: usePresentationDelete */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -61650,22 +61658,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "usePresentationDelete", function() { return usePresentationDelete; });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _useAuthHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../useAuthHeader */ "./resources/js/components/hooks/useAuthHeader.js");
 
-var options = {
-  headers: {
-    'Authorization': 'Bearer ' + localStorage.getItem('_token')
-  }
-};
+
 var usePresentationDelete = function usePresentationDelete(id) {
-  return axios__WEBPACK_IMPORTED_MODULE_0___default.a["delete"]("/api/presentations/".concat(id), options);
+  return axios__WEBPACK_IMPORTED_MODULE_0___default.a["delete"]("/api/presentations/".concat(id), Object(_useAuthHeader__WEBPACK_IMPORTED_MODULE_1__["useAuthHeader"])());
 };
 
 /***/ }),
 
-/***/ "./resources/js/components/hooks/usePresentationEdit.js":
-/*!**************************************************************!*\
-  !*** ./resources/js/components/hooks/usePresentationEdit.js ***!
-  \**************************************************************/
+/***/ "./resources/js/components/hooks/presentation/usePresentationEdit.js":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/hooks/presentation/usePresentationEdit.js ***!
+  \***************************************************************************/
 /*! exports provided: usePresentationEdit */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -61674,22 +61679,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "usePresentationEdit", function() { return usePresentationEdit; });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _useAuthHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../useAuthHeader */ "./resources/js/components/hooks/useAuthHeader.js");
 
-var options = {
-  headers: {
-    'Authorization': 'Bearer ' + localStorage.getItem('_token')
-  }
-};
+
 var usePresentationEdit = function usePresentationEdit(id, data) {
-  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.put("/api/presentations/".concat(id), data, options);
+  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.put("/api/presentations/".concat(id), data, Object(_useAuthHeader__WEBPACK_IMPORTED_MODULE_1__["useAuthHeader"])());
 };
 
 /***/ }),
 
-/***/ "./resources/js/components/hooks/usePresentationsData.js":
-/*!***************************************************************!*\
-  !*** ./resources/js/components/hooks/usePresentationsData.js ***!
-  \***************************************************************/
+/***/ "./resources/js/components/hooks/presentation/usePresentationsData.js":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/hooks/presentation/usePresentationsData.js ***!
+  \****************************************************************************/
 /*! exports provided: usePresentationsData */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -61698,14 +61700,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "usePresentationsData", function() { return usePresentationsData; });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _useAuthHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../useAuthHeader */ "./resources/js/components/hooks/useAuthHeader.js");
 
-var options = {
-  headers: {
-    'Authorization': 'Bearer ' + localStorage.getItem('_token')
-  }
-};
+
 var usePresentationsData = function usePresentationsData() {
-  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('/api/presentations', options);
+  return new Promise(function (resolve, reject) {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('/api/presentations', Object(_useAuthHeader__WEBPACK_IMPORTED_MODULE_1__["useAuthHeader"])()).then(function (response) {
+      if (response.status === 200) {
+        resolve(response.data);
+      }
+    })["catch"](function (err) {
+      reject(err.response);
+    });
+  });
+};
+
+/***/ }),
+
+/***/ "./resources/js/components/hooks/useAuthHeader.js":
+/*!********************************************************!*\
+  !*** ./resources/js/components/hooks/useAuthHeader.js ***!
+  \********************************************************/
+/*! exports provided: useAuthHeader */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useAuthHeader", function() { return useAuthHeader; });
+var useAuthHeader = function useAuthHeader() {
+  return {
+    headers: {
+      'Authorization': 'Bearer ' + localStorage.getItem('_token')
+    }
+  };
 };
 
 /***/ }),

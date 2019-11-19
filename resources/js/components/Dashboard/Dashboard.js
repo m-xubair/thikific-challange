@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
 import Presentation from '../Presentations/Presentation';
 import Loader from '../Loader/Loader';
-import {usePresentationsData} from '../hooks/usePresentationsData';
-import {usePresentationDelete} from '../hooks/usePresentationDelete';
+import {usePresentationsData} from '../hooks/presentation/usePresentationsData';
+import {usePresentationDelete} from '../hooks/presentation/usePresentationDelete';
 
 import './dashboard.css';
 import { async } from 'q';
@@ -11,16 +11,15 @@ function Dashboard(props) {
     const [presentations, setPresentation] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        usePresentationsData()
-        .then((response) => {
-            if(response.status === 200) {
-                setPresentation(response.data);
-                setLoading(false);
-            }
+        usePresentationsData().then((data) => {
+            setPresentation(data);
+            setLoading(false);
         }).catch((err) => {
-            props.history.push('/');
+            if(err && err.status === 400) {
+                props.history.push('/');
+            }
         });
-    }, [])
+    }, []);
 
     const deletePresentation = (presentation) => {
         setLoading(true);
@@ -32,7 +31,9 @@ function Dashboard(props) {
                 setLoading(false);
             }
         }).catch((err) => {
-            props.history.push('/');
+            if(err.response && err.response.status === 400) {
+                props.history.push('/');
+            }
         });
     }
 
