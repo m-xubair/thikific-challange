@@ -1,3 +1,7 @@
+a {
+    cursor: pointer;
+}
+
 /* Dashboard Css Starts */
 .dashboard-section{
     position: relative;
@@ -10,7 +14,7 @@
     max-width: 200px;
     width: 100%;
     margin-left: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 25px;
     background: #fff;
     box-shadow: 0 0 4px rgba(0,0,0,0.6);
     text-align: center;
@@ -19,13 +23,14 @@
     font-weight: 700;
     color: #000;
     transition: 0.3s all ease;
+    cursor: pointer;
 }
 .dashboard-section a.create-link:hover{
     text-decoration: none;
     box-shadow: 0 0 8px rgba(0,0,0,0.6);
 }
 .dashboard-section .row > div {
-    margin-bottom: 20px;
+    margin-bottom: 47px;
 }
 .card{
     position: relative;
@@ -50,6 +55,7 @@
 .card .card-top a{
     margin: 0 12px;
     font-size: 22px;
+    cursor: pointer;
 }
 .card .card-top a:hover{
     text-decoration: none;
@@ -66,47 +72,18 @@
 }
 .card .card-image img{
     width: 100%;
+    object-fit: cover;
+    height: 200px;
 }
 .card h4{
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
 }
-.card .card-model.show {
-    display: flex;
-}
-.card .card-model {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.8);
-    z-index: 999;
-}
-.card-model .close-link {
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    font-size: 30px;
-    color: #fff;
-}
-.card-model .card-secondary{
-    position: relative;
-    background: #fff;
-    border-radius: 6px;
-    display: block;
-    padding: 0 15px 10px;
-    color: #000;
-    box-shadow: 0 0 4px rgba(0,0,0,0.6);
-    max-width: 300px;
-    min-height: 300px;
-    overflow: hidden;
-    width: 100%;
-    margin: 0 auto;
+
+
+.modal-body .card-secondary{
+    
 }
 .card-secondary .cs-img {
     position: relative;
@@ -135,6 +112,7 @@
 }
 .card-secondary .cs-content{
     position: relative;
+    height: 20px;
 }
 .card-secondary .cs-content .cs-audio-links {
     position: absolute;
@@ -159,15 +137,33 @@ a.add-card {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 a.add-card i.fa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 36px;
     line-height: 1;
     color: #2e2e2e;
     transition: 0.4s all ease;
+    min-height: 50px;
+    min-width: 50px;
 }
 a.add-card:hover i.fa{
     font-size: 50px;
+ 
+}
+a.add-card span {
+    display: block;
+    padding: 5px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000;
 }
 .card .card-audio {
     display: flex;
@@ -198,3 +194,161 @@ a.add-card:hover i.fa{
     align-items: center;
     justify-content: flex-end;
 }
+.canvas-warap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.canvas-warap canvas {
+    width: 100%;
+}
+.canvas-warap div button {
+    color: #444444;
+    margin: 10px 10px 0;
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    font-size: 18px;
+    outline: none;
+    background: #e0e0e0;
+}
+.canvas-warap div button.active {
+    background: rgb(255, 64, 129);
+    color: #fff;
+}
+
+.card-content .card-page-audio {
+    width: 215px;
+    height: 25px;
+    outline: none;
+}
+.react-confirm-alert-overlay {
+    z-index: 9999 !important;
+}
+.drag-drop-container {
+    padding-top: 1rem;
+    display: flex;
+    border: dotted #ccc;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 22px;
+    outline: none;
+    cursor: pointer;
+}
+.drag-drop-container p {
+    text-align: center;
+}
+.sorting-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.sorting-content span {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+}
+.sorting-content .sc-btn {
+    margin: 12px 0;
+}
+.sorting-content .sc-btn input {
+    margin: 0 12px;
+    display: inline-block;
+    border-radius: 3px;
+    min-width: 122px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0,0,0,0.6);
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+}
+.sorting-content .sc-btn input:last-child {
+    margin: 0;
+}
+.page-serial {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    padding: 8px 0;
+}
+/* Box Css Starts */
+.box-section{
+    position: relative;
+    padding: 30px 0;
+    background: #fff;
+    min-height: 100vh;
+}
+.box{
+    position: relative;
+    background: #fff;
+    border-radius: 6px;
+    display: block;
+    color: #000;
+    box-shadow: 0 0 4px rgba(0,0,0,0.6);
+    max-width: 420px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 720px;
+}
+.box.expanded-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    color: #000;
+    box-shadow: none;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.box .box-image img {
+    width: 100%;
+}
+.box .box-audio {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.box a.expand-box {
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 28px;
+    min-width: 28px;
+}
+.box a.expand-box i.fa {
+    color: #000;
+    font-size: 14px;
+    transition: 0.5s all ease;
+}
+.box a.expand-box:hover i.fa {
+    font-size: 22px;
+}
+.box .slick-prev:before, .slick-next:before {
+    color: #2a1790 !important;
+}
+.slick-slide img {
+    min-height: 658px;
+    object-fit: cover;
+}
+/* Box Css Ends */
+
+
+
+
+

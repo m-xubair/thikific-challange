@@ -26,7 +26,13 @@
     "dependencies": {
         "@ckeditor/ckeditor5-build-classic": "^15.0.0",
         "@ckeditor/ckeditor5-react": "^1.1.3",
+        "react-confirm-alert": "^2.4.1",
+        "react-dropzone": "^10.2.0",
+        "react-mic": "^12.4.1",
         "react-router-dom": "^5.1.2",
-        "reactstrap": "^8.1.1"
+        "react-slick": "^0.25.2",
+        "react-sortable-hoc": "^1.10.1",
+        "reactstrap": "^8.1.1",
+        "slick-carousel": "^1.8.1"
     }
 }

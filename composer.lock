@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4e1d2ed3b6038ea89b8c7e5200027f8",
+    "content-hash": "6c88f20f2d080cfd70579709c795378d",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1130,6 +1130,52 @@
                 "twitter"
             ],
             "time": "2016-08-17T00:36:58+00:00"
+        },
+        {
+            "name": "mavinoo/laravel-batch",
+            "version": "v2.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mavinoo/laravelBatch.git",
+                "reference": "a46e0ac1c15f61987379c812018dfec8c9f98e72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mavinoo/laravelBatch/zipball/a46e0ac1c15f61987379c812018dfec8c9f98e72",
+                "reference": "a46e0ac1c15f61987379c812018dfec8c9f98e72",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Mavinoo\\LaravelBatch\\LaravelBatchServiceProvider"
+                    ],
+                    "aliases": {
+                        "Batch": "Mavinoo\\LaravelBatch\\LaravelBatchFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mavinoo\\LaravelBatch\\": "src/"
+                },
+                "files": [
+                    "src/Common/Helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohammad Ghanbari",
+                    "email": "wordpress.iran@gmail.com"
+                }
+            ],
+            "description": "Insert and update batch (bulk) in laravel",
+            "time": "2019-11-04T20:09:21+00:00"
         },
         {
             "name": "monolog/monolog",

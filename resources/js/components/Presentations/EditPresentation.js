@@ -28,7 +28,7 @@ function EditPresentation(props) {
             }
             props.history.push('/dashboard');
         }).catch((err) =>{
-            if(err.response && err.response.status === 400) {
+            if(err.response && err.response.status === 403) {
                 props.history.push('/');
             }
         })
@@ -42,7 +42,7 @@ function EditPresentation(props) {
                 setDescription(description);
             }
         }).catch((err) => {
-            if(err.response && err.response.status === 400) {
+            if(err.response && err.response.status === 403) {
                 props.history.push('/');
             }
         });
@@ -53,7 +53,7 @@ function EditPresentation(props) {
         <div className="form-section">
             <div className="container">
                 <div className="button-container">
-                    <Link to={`/presentaion/${presentationID}/pages`} className="create-link pull-right"> <i className="fa fa-upload"></i> Manage Pages</Link>
+                    <Link to={`/presentation/${presentationID}/pages`} className="create-link pull-right"> <i className="fa fa-upload"></i> Manage Pages</Link>
                     <Link to="/dashboard" className="create-link pull-right"> <i className="fa fa-arrow-left"></i> Go Back</Link>
                 </div>
                 <h3>Edit Presentation</h3>

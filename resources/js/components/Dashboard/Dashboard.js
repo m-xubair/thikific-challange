@@ -31,7 +31,7 @@ function Dashboard(props) {
                 setLoading(false);
             }
         }).catch((err) => {
-            if(err.response && err.response.status === 400) {
+            if(err.response && err.response.status === 403) {
                 props.history.push('/');
             }
         });
@@ -40,7 +40,9 @@ function Dashboard(props) {
     return (
         <div className="dashboard-section">
             <div className="container">
-                <Link to="/presentation/create" className="create-link">+ Create Presentation</Link>
+                <div className="button-container">
+                    <Link to="/presentation/create" className="create-link">+ Create Presentation</Link>
+                </div>
                 
                     {
                         loading ? 

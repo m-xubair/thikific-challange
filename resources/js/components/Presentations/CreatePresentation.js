@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CKEditor from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import { Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {usePresentationCreate} from '../hooks/presentation/usePresentationCreate';
 import Loader from '../Loader/Loader';
 function CreatePresentation(props) {
@@ -23,9 +23,9 @@ function CreatePresentation(props) {
                 setErrors(response.data.errors)
                 return;
             }
-            props.history.push('/dashboard');
+            props.history.push('/presentation/'+response.data.id+'/pages');
         }).catch((err) =>{
-            if(err.response && err.response.status === 400) {
+            if(err.response && err.response.status === 403) {
                 props.history.push('/');
             }
         })
@@ -34,7 +34,9 @@ function CreatePresentation(props) {
         <div className="dashboard-section">
         <div className="form-section">
             <div className="container">
-                <a onClick={() => props.history.push('/dashboard')} className="create-link"> <i className="fa fa-arrow-left"></i> Go Back</a>
+                <div className="button-container">
+                    <Link to='/dashboard' className="create-link"> <i className="fa fa-arrow-left"></i> Go Back</Link>
+                </div>
                 <h3>Create Presentation</h3>
                 <form>
                     {

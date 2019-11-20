@@ -10,6 +10,8 @@ import Token from './Token/Token';
 import Dashboard from './Dashboard/Dashboard';
 import EditPresentation from './Presentations/EditPresentation';
 import CreatePresentation from './Presentations/CreatePresentation';
+import PresentationPages from './Presentations/PresentationPages';
+import PresentationPreview from './Presentations/PresentationPreview';
 
 export default class App extends Component {
     render() {
@@ -20,6 +22,8 @@ export default class App extends Component {
                 <Route path="/dashboard" component={Dashboard} />
                 <Route path="/presentation/:id/edit" component={EditPresentation} />
                 <Route path="/presentation/create" component={CreatePresentation} />
+                <Route path="/presentation/:id/pages" component={PresentationPages} />
+                <Route path="/presentation/:id/preview" component={PresentationPreview} />
 
             </Router>
 

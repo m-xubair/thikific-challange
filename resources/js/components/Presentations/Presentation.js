@@ -17,7 +17,7 @@ function Presentation(props) {
                 <div className="card-image">
                     {
                         presentation.pages.length > 0 ?
-                            <img src="/images/dynamic.png" alt="" />
+                            <img src={`/storage/presentations/${presentation.id}/${presentation.pages[0].image}`} alt="" />
                         :
                             <img src="/images/dumy.png" alt="" />    
                     }

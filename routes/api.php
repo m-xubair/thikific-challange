@@ -15,4 +15,10 @@
 
 Route::group(['middleware' => ['jwt.verify']], function() {
     Route::resource('presentations', 'PresentationController');
+    Route::post('/pages/sort', 'PageController@sortPagesOrder');
+    Route::post('pages/add-new', 'PageController@addNewPage');
+    Route::put('pages/{id}/delete/audio', 'PageController@removeAudio');
+    Route::post('pages/{id}/audio', 'PageController@updateAudio');
+    Route::post('pages/{id}', 'PageController@update');
+    Route::resource('pages', 'PageController');
 });

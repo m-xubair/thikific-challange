@@ -176,6 +176,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         Laravel\Socialite\SocialiteServiceProvider::class,
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+        Mavinoo\LaravelBatch\LaravelBatchServiceProvider::class,
 
     ],
 
@@ -231,6 +232,7 @@ return [
         'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
         'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
         'Uuid' => Webpatser\Uuid\Uuid::class,
+        'Batch' => Mavinoo\LaravelBatch\LaravelBatchFacade::class,
 
     ],
 
