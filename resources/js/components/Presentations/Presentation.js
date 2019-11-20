@@ -24,7 +24,7 @@ function Presentation(props) {
                     
                 </div>
                 <div className="card-content">
-                    <h4>{presentation.name}</h4>
+                    <h4>{presentation.name.length > 25 ? presentation.name.substr(0,25)+'...': presentation.name }</h4>
                 </div>
             </div>
         </div>

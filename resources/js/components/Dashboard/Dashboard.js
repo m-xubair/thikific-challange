@@ -16,7 +16,7 @@ function Dashboard(props) {
             setPresentation(data);
             setLoading(false);
         }).catch((err) => {
-            if(err && err.status === 400) {
+            if(err && err.status === 403) {
                 props.history.push('/');
             }
         });
