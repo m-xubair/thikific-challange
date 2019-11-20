@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom';
+import { confirmAlert } from 'react-confirm-alert';
 import Presentation from '../Presentations/Presentation';
 import Loader from '../Loader/Loader';
 import {usePresentationsData} from '../hooks/presentation/usePresentationsData';
@@ -20,7 +21,23 @@ function Dashboard(props) {
             }
         });
     }, []);
+    const handleDeletePresentation = (message, cb, id) => {
+        confirmAlert({
+            title: 'Confirm Delete',
+            message,
+            buttons: [
+                {
+                label: 'Yes',
+                onClick: () => cb(id)
+                },
+                {
+                label: 'No',
+                onClick: () => {}
+                }
+            ]
+            })
 
+    }
     const deletePresentation = (presentation) => {
         setLoading(true);
         const newPresentations = presentations.filter((p) => p.id !== presentation);
@@ -50,8 +67,11 @@ function Dashboard(props) {
                         :
                             <div className="row">
                                 {
+                                    presentations.length === 0 ?
+                                    <div className="no-presentation">You don't have any presentation yet. Click on CREATE PRESENTATION to create.</div>
+                                    :
                                     presentations.map((presentation) => <Presentation presentation={presentation}  key={presentation.id}
-                                    deletePresentation={deletePresentation}
+                                    deletePresentation={deletePresentation} handleDeletePresentation={handleDeletePresentation}
                                     />)
                                 }
                                 

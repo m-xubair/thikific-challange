@@ -2866,7 +2866,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "a {\n    cursor: pointer;\n}\n\n/* Dashboard Css Starts */\n.dashboard-section{\n    position: relative;\n    padding: 30px 0;\n    background: #fff;\n}\n.dashboard-section a.create-link{\n    display: block;\n    border-radius: 3px;\n    max-width: 200px;\n    width: 100%;\n    margin-left: 15px;\n    margin-bottom: 25px;\n    background: #fff;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    text-align: center;\n    line-height: 48px;\n    font-size: 18px;\n    font-weight: 700;\n    color: #000;\n    -webkit-transition: 0.3s all ease;\n    transition: 0.3s all ease;\n    cursor: pointer;\n}\n.dashboard-section a.create-link:hover{\n    text-decoration: none;\n    box-shadow: 0 0 8px rgba(0,0,0,0.6);\n}\n.dashboard-section .row > div {\n    margin-bottom: 47px;\n}\n.card{\n    position: relative;\n    background: #fff;\n    border-radius: 6px;\n    display: block;\n    padding: 0 15px 10px;\n    color: #000;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    height: 100%;\n    min-height: 300px;\n    max-width: 300px;\n    width: 100%;\n    margin: 0 auto;\n}\n.card .card-top{\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n            justify-content: flex-end;\n    margin: 8px 0;\n}\n.card .card-top a{\n    margin: 0 12px;\n    font-size: 22px;\n    cursor: pointer;\n}\n.card .card-top a:hover{\n    text-decoration: none;\n}\n.card .card-top a:last-child{\n    margin: 0;\n}\n.card .card-top a i.fa{\n    font-size: 22px;\n    color: #000;\n}\n.card .card-image{\n    margin: 0 -15px 18px;\n}\n.card .card-image img{\n    width: 100%;\n    -o-object-fit: cover;\n       object-fit: cover;\n    height: 200px;\n}\n.card h4{\n    font-size: 18px;\n    line-height: 24px;\n    font-weight: 400;\n}\n\n\n.modal-body .card-secondary{\n    \n}\n.card-secondary .cs-img {\n    position: relative;\n    margin: 0 -15px 15px;\n}\n.card-secondary .cs-img img{\n    width: 100%;\n}\n.card-secondary .cs-img .cs-img-links{\n    position: absolute;\n    top: 5px;\n    right: 5px;\n}\n.card-secondary .cs-img a{\n    margin: 0 6px;\n}\n.card-secondary .cs-img a:hover{\n    text-decoration: none;\n}\n.card-secondary .cs-img a:last-child{\n    margin: 0;\n}\n.card-secondary .cs-img a i.fa{\n    color: #000;\n    font-size: 22px;\n}\n.card-secondary .cs-content{\n    position: relative;\n    height: 20px;\n}\n.card-secondary .cs-content .cs-audio-links {\n    position: absolute;\n    top: 0;\n    right: 0;\n}\n.card-secondary .cs-content .cs-audio-links a {\n    margin: 0 6px;\n}\n.card-secondary .cs-content a i.fa{\n    color: #000;\n    font-size: 22px;\n}\n.card-secondary .cs-content a:last-child{\n    margin: 0;\n}\n.card-secondary .cs-content a:hover{\n    text-decoration: none;\n}\na.add-card {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n}\na.add-card i.fa {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    font-size: 36px;\n    line-height: 1;\n    color: #2e2e2e;\n    -webkit-transition: 0.4s all ease;\n    transition: 0.4s all ease;\n    min-height: 50px;\n    min-width: 50px;\n}\na.add-card:hover i.fa{\n    font-size: 50px;\n \n}\na.add-card span {\n    display: block;\n    padding: 5px 0;\n    font-size: 18px;\n    line-height: 26px;\n    font-weight: 400;\n    color: #000;\n}\n.card .card-audio {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.card .card-audio a.audio-link {\n    color: #000;\n}\n.card .card-audio a.audio-link:hover{\n    text-decoration: none;\n}\n.card .card-audio a.audio-link i.fa {\n    font-size: 16px;\n}\n.card .card-audio a.audio-link span {\n    font-size: 16px;\n    line-height: 24px;\n    font-weight: 400;\n    margin-left: 6px;\n}\n/* Dashboard Css Ends */\n.ck-editor__editable_inline {\n    min-height: 400px;\n}\n\n.button-container {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n            justify-content: flex-end;\n}\n.canvas-warap {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.canvas-warap canvas {\n    width: 100%;\n}\n.canvas-warap div button {\n    color: #444444;\n    margin: 10px 10px 0;\n    border: 0;\n    border-radius: 50%;\n    width: 50px;\n    height: 50px;\n    padding: 0;\n    font-size: 18px;\n    outline: none;\n    background: #e0e0e0;\n}\n.canvas-warap div button.active {\n    background: rgb(255, 64, 129);\n    color: #fff;\n}\n\n.card-content .card-page-audio {\n    width: 215px;\n    height: 25px;\n    outline: none;\n}\n.react-confirm-alert-overlay {\n    z-index: 9999 !important;\n}\n.drag-drop-container {\n    padding-top: 1rem;\n    display: -webkit-box;\n    display: flex;\n    border: dotted #ccc;\n    -webkit-box-pack: center;\n            justify-content: center;\n    margin-bottom: 25px;\n    font-size: 22px;\n    outline: none;\n    cursor: pointer;\n}\n.drag-drop-container p {\n    text-align: center;\n}\n.sorting-content {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    padding: 15px 0;\n}\n.sorting-content span {\n    font-size: 15px;\n    line-height: 30px;\n    font-weight: 400;\n    color: #000;\n}\n.sorting-content .sc-btn {\n    margin: 12px 0;\n}\n.sorting-content .sc-btn input {\n    margin: 0 12px;\n    display: inline-block;\n    border-radius: 3px;\n    min-width: 122px;\n    background: #fff;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    text-align: center;\n    line-height: 30px;\n    font-size: 15px;\n    font-weight: 400;\n    color: #000;\n}\n.sorting-content .sc-btn input:last-child {\n    margin: 0;\n}\n.page-serial {\n    font-size: 15px;\n    line-height: 30px;\n    font-weight: 400;\n    color: #000;\n    text-align: center;\n    padding: 8px 0;\n}\n/* Box Css Starts */\n.box-section{\n    position: relative;\n    padding: 30px 0;\n    background: #fff;\n    min-height: 100vh;\n}\n.box{\n    position: relative;\n    background: #fff;\n    border-radius: 6px;\n    display: block;\n    color: #000;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    max-width: 420px;\n    width: 100%;\n    margin: 0 auto;\n    min-height: 720px;\n}\n.box.expanded-box {\n    position: fixed;\n    top: 0;\n    left: 0;\n    border-radius: 0;\n    color: #000;\n    box-shadow: none;\n    max-width: 100%;\n    width: 100%;\n    height: 100%;\n    overflow-y: scroll;\n    overflow-x: hidden;\n}\n.box .box-image img {\n    width: 100%;\n}\n.box .box-audio {\n    position: absolute;\n    top: 5px;\n    left: 10px;\n}\n.box a.expand-box {\n    position: absolute;\n    top: 18px;\n    right: 12px;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    min-height: 28px;\n    min-width: 28px;\n}\n.box a.expand-box i.fa {\n    color: #000;\n    font-size: 14px;\n    -webkit-transition: 0.5s all ease;\n    transition: 0.5s all ease;\n}\n.box a.expand-box:hover i.fa {\n    font-size: 22px;\n}\n.box .slick-prev:before, .slick-next:before {\n    color: #2a1790 !important;\n}\n.slick-slide img {\n    min-height: 658px;\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n/* Box Css Ends */\n\n\n\n\n\n", ""]);
+exports.push([module.i, "a {\n    cursor: pointer;\n}\nbody {\n    background: #26292d;\n    color: #fff;\n}\n\n/* Dashboard Css Starts */\n.dashboard-section{\n    position: relative;\n    padding: 20px 0 10px;\n}\n.dashboard-section .no-presentation {\n    text-align: center;\n    width: 100%;\n    font-size: 20px;\n    margin-top: 150px;\n}\na.create-link{\n    display: block;\n    border-radius: 3px;\n    max-width: 200px;\n    width: 100%;\n    margin-left: 15px;\n    margin-bottom: 25px;\n    background: #ef743c;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    text-align: center;\n    line-height: 48px;\n    font-size: 18px;\n    font-weight: 700;\n    color: #fff;\n    -webkit-transition: 0.3s all ease;\n    transition: 0.3s all ease;\n    cursor: pointer;\n}\n.box-section a.create-link {\n    margin-left: 0;\n}\n.box-section .model-back-link{\n    margin: 0 auto 15px;\n    max-width: 420px;\n}\na.create-link:hover{\n    text-decoration: none;\n    box-shadow: 0 0 8px rgba(0,0,0,0.6);\n}\n.dashboard-section .row > div {\n    margin-bottom: 30px;\n}\n.form-section form button {\n    background: #2db3c6;\n    color: #fff;\n}\n.form-section form button:hover {\n    background: #2db3c6;\n    color: #fff;\n}\n.card{\n    position: relative;\n    background: #fff;\n    border-radius: 6px;\n    display: block;\n    padding: 0 15px 10px;\n    color: #000;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    min-height: 310px;\n    max-width: 300px;\n    width: 100%;\n    margin: 0 auto;\n}\n.card .card-top{\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n            justify-content: flex-end;\n    margin: 8px 0;\n}\n.card .card-top a{\n    margin: 0 12px;\n    font-size: 22px;\n    cursor: pointer;\n    color: #fff;\n    height: 35px;\n    width: 35px;\n    background: #2db3c6;\n    border-radius: 50%;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n}\n.card .card-top a:hover{\n    text-decoration: none;\n    color: #fff;\n}\n.card .card-top a:last-child{\n    margin: 0;\n}\n.card .card-top a i.fa{\n    font-size: 18px;\n    color: inherit;\n}\n.card .card-image{\n    margin: 0 -15px 18px;\n}\n.card .card-image img{\n    width: 100%;\n    -o-object-fit: cover;\n       object-fit: cover;\n    height: 200px;\n}\n.card h4{\n    font-size: 16px;\n    line-height: 24px;\n    font-weight: 400;\n}\n\n\n.modal-body .card-secondary{\n    \n}\n.card-secondary .cs-img {\n    position: relative;\n    margin: 0 -15px 15px;\n}\n.card-secondary .cs-img img{\n    width: 100%;\n}\n.card-secondary .cs-img .cs-img-links{\n    position: absolute;\n    top: 5px;\n    right: 5px;\n}\n.card-secondary .cs-img a{\n    margin: 0 6px;\n}\n.card-secondary .cs-img a:hover{\n    text-decoration: none;\n}\n.card-secondary .cs-img a:last-child{\n    margin: 0;\n}\n.card-secondary .cs-img a i.fa{\n    color: #000;\n    font-size: 22px;\n}\n.card-secondary .cs-content{\n    position: relative;\n    height: 28px;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: justify;\n            justify-content: space-between;\n}\n.card-secondary .cs-content .cs-audio-links {\n    \n}\n.card-secondary .cs-content .cs-audio-links a {\n    margin: 0 6px;\n}\n.card-secondary .cs-content a i.fa{\n    color: #000;\n    font-size: 22px;\n}\n.card-secondary .cs-content a:last-child{\n    margin: 0;\n}\n.card-secondary .cs-content a:hover{\n    text-decoration: none;\n}\na.add-card {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translate(-50%, -50%);\n            transform: translate(-50%, -50%);\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n}\na.add-card i.fa {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    font-size: 36px;\n    line-height: 1;\n    color: #2e2e2e;\n    -webkit-transition: 0.4s all ease;\n    transition: 0.4s all ease;\n    min-height: 50px;\n    min-width: 50px;\n}\na.add-card:hover i.fa{\n    font-size: 50px;\n \n}\na.add-card span {\n    display: block;\n    padding: 5px 0;\n    font-size: 18px;\n    line-height: 26px;\n    font-weight: 400;\n    color: #000;\n    text-transform: capitalize;\n}\n.card .card-audio {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.card .card-audio a.audio-link {\n    color: #000;\n}\n.card .card-audio a.audio-link:hover{\n    text-decoration: none;\n}\n.card .card-audio a.audio-link i.fa {\n    font-size: 16px;\n}\n.card .card-audio a.audio-link span {\n    font-size: 16px;\n    line-height: 24px;\n    font-weight: 400;\n    margin-left: 6px;\n}\n/* Dashboard Css Ends */\n.ck-editor__editable_inline {\n    min-height: 400px;\n}\n\n.button-container {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: end;\n            justify-content: flex-end;\n}\n.canvas-warap {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    -webkit-box-align: center;\n            align-items: center;\n}\n.canvas-warap canvas {\n    width: 100%;\n}\n.canvas-warap div button {\n    color: #444444;\n    margin: 10px 10px 0;\n    border: 0;\n    border-radius: 50%;\n    width: 50px;\n    height: 50px;\n    padding: 0;\n    font-size: 18px;\n    outline: none;\n    background: #e0e0e0;\n}\n.canvas-warap div button.active {\n    background: rgb(255, 64, 129);\n    color: #fff;\n}\n.card-content {\n    color: rgba(0,0,0,0.6);\n}\n.card-content .card-page-audio {\n    width: 215px;\n    height: 25px;\n    outline: none;\n}\n.react-confirm-alert-overlay {\n    z-index: 9999 !important;\n}\n.drag-drop-container {\n    padding-top: 1rem;\n    display: -webkit-box;\n    display: flex;\n    border: dotted #ccc;\n    -webkit-box-pack: center;\n            justify-content: center;\n    margin-bottom: 25px;\n    font-size: 22px;\n    outline: none;\n    cursor: pointer;\n}\n.drag-drop-container p {\n    text-align: center;\n}\n.sorting-content {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n            flex-direction: column;\n    margin-bottom: 25px;\n}\n.sorting-content span {\n    font-size: 15px;\n    line-height: 30px;\n    font-weight: 400;\n    color: #fff;\n}\n.sorting-content .sc-btn {\n    margin: 12px 0;\n}\n.sorting-content .sc-btn input {\n    margin: 0 12px;\n    display: inline-block;\n    border-radius: 3px;\n    min-width: 122px;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    text-align: center;\n    line-height: 30px;\n    font-size: 15px;\n    font-weight: 400;\n    background: #2db3c6;\n    color: #fff;\n    border: none;\n}\n.sorting-content .sc-btn input:last-child {\n    margin: 0;\n}\n.page-serial {\n    font-size: 15px;\n    line-height: 30px;\n    font-weight: 400;\n    color: #fff;\n    text-align: center;\n    padding: 8px 0;\n}\n.form-section .ck.ck-editor {\n    color: #000;\n}\n/* Box Css Starts */\n.box-section{\n    position: relative;\n    padding: 30px 0;\n    min-height: 100vh;\n}\n.box{\n    position: relative;\n    border-radius: 6px;\n    display: block;\n    color: #000;\n    box-shadow: 0 0 4px rgba(0,0,0,0.6);\n    max-width: 420px;\n    width: 100%;\n    margin: 0 auto;\n}\n.box.expanded-box {\n    position: fixed;\n    top: 0;\n    left: 0;\n    border-radius: 0;\n    color: #000;\n    box-shadow: none;\n    max-width: 100%;\n    width: 100%;\n    height: 100%;\n    overflow-y: scroll;\n    overflow-x: hidden;\n}\n.box .box-image img {\n    width: 100%;\n}\n.box .box-audio {\n    position: absolute;\n    top: 5px;\n    left: 10px;\n}\n.box a.expand-box {\n    position: absolute;\n    top: 18px;\n    right: 12px;\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    min-height: 28px;\n    min-width: 28px;\n}\n.box a.expand-box i.fa {\n    color: #000;\n    font-size: 14px;\n    -webkit-transition: 0.5s all ease;\n    transition: 0.5s all ease;\n}\n.box a.expand-box:hover i.fa {\n    font-size: 22px;\n}\n.box .slick-prev:before, .slick-next:before {\n    color: #2a1790 !important;\n}\n.box .slick-slide img {\n    min-height: 658px;\n    -o-object-fit: cover;\n       object-fit: cover;\n}\n.box .slick-list {\n    border-radius: 8px;\n}\n.box .slick-prev, .box .slick-next {\n    display: -webkit-box;\n    display: flex;\n    -webkit-box-align: center;\n            align-items: center;\n    -webkit-box-pack: center;\n            justify-content: center;\n    height: 40px;\n    width: 40px;\n    background: #2db3c6;\n    color: #fff;\n    border-radius: 50%;\n    opacity: 1;\n}\n.box .slick-arrow:hover, .box .slick-arrow:focus {\n    background: #2db3c6;\n    color: #fff;\n}\n.box .slick-next::before {\n     color: #fff !important;\n    content: \"\\F105\";\n    display: inline-block;\n    font: normal normal normal 32px/1 FontAwesome;\n}\n.box .slick-prev::before {\n     color: #fff !important;\n    content: \"\\F104\";\n    display: inline-block;\n    font: normal normal normal 32px/1 FontAwesome;\n}\n.box .slick-next {\n    right: -65px;\n}\n.box .slick-prev {\n    left: -65px;\n}\n.box .slick-dots {\n    bottom: -35px;\n}\n.box .slick-dots li button::before {\n    font-size: 20px;\n    color: #2db3c6;\n    opacity: 0.5;\n}\n.box .slick-dots li.slick-active button::before{\n    color: #2db3c6;\n    opacity: 1;\n}\n.expanded-box .slick-arrow {\n    position: fixed;\n    top: 50%;\n    -webkit-transform: translateY(-50%);\n            transform: translateY(-50%);\n    z-index: 999;\n}\n.expanded-box .slick-next {\n    right: 2%;\n}\n.expanded-box .slick-prev {\n    left: 2%;\n}\n.expanded-box .slick-dots {\n    position: fixed;\n    bottom: 0%;\n    z-index: 999;\n    background: rgba(255,255,255,0.8);\n    padding: 12px 0 20px;\n}\n\n/* Box Css Ends */\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -81481,14 +81481,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _Presentations_Presentation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Presentations/Presentation */ "./resources/js/components/Presentations/Presentation.js");
-/* harmony import */ var _Loader_Loader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Loader/Loader */ "./resources/js/components/Loader/Loader.js");
-/* harmony import */ var _hooks_presentation_usePresentationsData__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/presentation/usePresentationsData */ "./resources/js/components/hooks/presentation/usePresentationsData.js");
-/* harmony import */ var _hooks_presentation_usePresentationDelete__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../hooks/presentation/usePresentationDelete */ "./resources/js/components/hooks/presentation/usePresentationDelete.js");
-/* harmony import */ var _dashboard_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dashboard.css */ "./resources/js/components/Dashboard/dashboard.css");
-/* harmony import */ var _dashboard_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dashboard_css__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! q */ "./node_modules/q/q.js");
-/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_confirm_alert__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-confirm-alert */ "./node_modules/react-confirm-alert/lib/index.js");
+/* harmony import */ var react_confirm_alert__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_confirm_alert__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Presentations_Presentation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Presentations/Presentation */ "./resources/js/components/Presentations/Presentation.js");
+/* harmony import */ var _Loader_Loader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Loader/Loader */ "./resources/js/components/Loader/Loader.js");
+/* harmony import */ var _hooks_presentation_usePresentationsData__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../hooks/presentation/usePresentationsData */ "./resources/js/components/hooks/presentation/usePresentationsData.js");
+/* harmony import */ var _hooks_presentation_usePresentationDelete__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../hooks/presentation/usePresentationDelete */ "./resources/js/components/hooks/presentation/usePresentationDelete.js");
+/* harmony import */ var _dashboard_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./dashboard.css */ "./resources/js/components/Dashboard/dashboard.css");
+/* harmony import */ var _dashboard_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_dashboard_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! q */ "./node_modules/q/q.js");
+/* harmony import */ var q__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(q__WEBPACK_IMPORTED_MODULE_8__);
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -81496,6 +81498,7 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -81518,7 +81521,7 @@ function Dashboard(props) {
       setLoading = _useState4[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    Object(_hooks_presentation_usePresentationsData__WEBPACK_IMPORTED_MODULE_4__["usePresentationsData"])().then(function (data) {
+    Object(_hooks_presentation_usePresentationsData__WEBPACK_IMPORTED_MODULE_5__["usePresentationsData"])().then(function (data) {
       setPresentation(data);
       setLoading(false);
     })["catch"](function (err) {
@@ -81528,12 +81531,28 @@ function Dashboard(props) {
     });
   }, []);
 
+  var handleDeletePresentation = function handleDeletePresentation(message, cb, id) {
+    Object(react_confirm_alert__WEBPACK_IMPORTED_MODULE_2__["confirmAlert"])({
+      title: 'Confirm Delete',
+      message: message,
+      buttons: [{
+        label: 'Yes',
+        onClick: function onClick() {
+          return cb(id);
+        }
+      }, {
+        label: 'No',
+        onClick: function onClick() {}
+      }]
+    });
+  };
+
   var deletePresentation = function deletePresentation(presentation) {
     setLoading(true);
     var newPresentations = presentations.filter(function (p) {
       return p.id !== presentation;
     });
-    Object(_hooks_presentation_usePresentationDelete__WEBPACK_IMPORTED_MODULE_5__["usePresentationDelete"])(presentation).then(function (response) {
+    Object(_hooks_presentation_usePresentationDelete__WEBPACK_IMPORTED_MODULE_6__["usePresentationDelete"])(presentation).then(function (response) {
       if (response.status === 200 && response.data.success) {
         setPresentation(newPresentations);
         setLoading(false);
@@ -81554,13 +81573,16 @@ function Dashboard(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/presentation/create",
     className: "create-link"
-  }, "+ Create Presentation")), loading ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loader_Loader__WEBPACK_IMPORTED_MODULE_3__["default"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "+ Create Presentation")), loading ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loader_Loader__WEBPACK_IMPORTED_MODULE_4__["default"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
-  }, presentations.map(function (presentation) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Presentations_Presentation__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, presentations.length === 0 ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "no-presentation"
+  }, "You don't have any presentation yet. Click on CREATE PRESENTATION to create.") : presentations.map(function (presentation) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Presentations_Presentation__WEBPACK_IMPORTED_MODULE_3__["default"], {
       presentation: presentation,
       key: presentation.id,
-      deletePresentation: deletePresentation
+      deletePresentation: deletePresentation,
+      handleDeletePresentation: handleDeletePresentation
     });
   }))));
 }
@@ -82074,7 +82096,8 @@ __webpack_require__.r(__webpack_exports__);
 
 function Presentation(props) {
   var presentation = props.presentation,
-      deletePresentation = props.deletePresentation;
+      deletePresentation = props.deletePresentation,
+      handleDeletePresentation = props.handleDeletePresentation;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg-3 col-sm-6"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -82089,7 +82112,7 @@ function Presentation(props) {
     "aria-hidden": "true"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     onClick: function onClick() {
-      return deletePresentation(presentation.id);
+      return handleDeletePresentation('Are you sure you want to delete presentation? All images/audio files will be deleted.', deletePresentation, presentation.id);
     },
     className: "delete-link"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
@@ -82822,11 +82845,11 @@ function PresentationPages(props) {
   }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-file-archive-o"
   }), " Export"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/presentation/".concat(presentationID, "/edit"),
+    to: "/dashboard",
     className: "create-link"
   }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-arrow-left"
-  }), " Go Back")), pdfError ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "fa fa-home"
+  }), " Home")), pdfError ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "alert alert-danger"
   }, pdfError) : null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, getRootProps(), {
     className: "drag-drop-container"
@@ -82906,13 +82929,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Loader_Loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Loader/Loader */ "./resources/js/components/Loader/Loader.js");
-/* harmony import */ var _PresentationPreviewItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PresentationPreviewItem */ "./resources/js/components/Presentations/PresentationPreviewItem.js");
-/* harmony import */ var _hooks_pages_usePresentationPages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../hooks/pages/usePresentationPages */ "./resources/js/components/hooks/pages/usePresentationPages.js");
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
-/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
-/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Loader_Loader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Loader/Loader */ "./resources/js/components/Loader/Loader.js");
+/* harmony import */ var _PresentationPreviewItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PresentationPreviewItem */ "./resources/js/components/Presentations/PresentationPreviewItem.js");
+/* harmony import */ var _hooks_pages_usePresentationPages__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../hooks/pages/usePresentationPages */ "./resources/js/components/hooks/pages/usePresentationPages.js");
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! slick-carousel/slick/slick.css */ "./node_modules/slick-carousel/slick/slick.css");
+/* harmony import */ var slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! slick-carousel/slick/slick-theme.css */ "./node_modules/slick-carousel/slick/slick-theme.css");
+/* harmony import */ var slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(slick_carousel_slick_slick_theme_css__WEBPACK_IMPORTED_MODULE_7__);
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -82920,6 +82944,7 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -82957,7 +82982,7 @@ function PresentationPreview(props) {
       setLoadingPages = _useState6[1];
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    Object(_hooks_pages_usePresentationPages__WEBPACK_IMPORTED_MODULE_4__["usePresentationPages"])(presentationID).then(function (data) {
+    Object(_hooks_pages_usePresentationPages__WEBPACK_IMPORTED_MODULE_5__["usePresentationPages"])(presentationID).then(function (data) {
       console.log(data);
       setPresentation(data);
       setLoadingPages(false);
@@ -82972,13 +82997,20 @@ function PresentationPreview(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "model-back-link"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    className: "create-link",
+    to: "/presentation/".concat(presentationID, "/pages")
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-arrow-left"
+  }), " Go Back")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: toggleExpanded ? "box expanded-box" : "box"
   }, presentation && !loadingPages ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, settings, presentation.pages.map(function (page) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PresentationPreviewItem__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PresentationPreviewItem__WEBPACK_IMPORTED_MODULE_4__["default"], {
       page: page,
       key: page.id
     });
-  })) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loader_Loader__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  })) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loader_Loader__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     onClick: function onClick() {
       return setToggleExpanded(!toggleExpanded);
     },

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Slider from "react-slick";
+import {Link} from 'react-router-dom';
 import Loader from '../Loader/Loader';
 import PresentationPreviewItem from './PresentationPreviewItem';
 import {usePresentationPages} from '../hooks/pages/usePresentationPages';
@@ -34,6 +35,7 @@ function PresentationPreview(props) {
     return (
         <div className="box-section">
             <div className="container">
+            <div className="model-back-link"><Link className="create-link" to={`/presentation/${presentationID}/pages`}><i className="fa fa-arrow-left"></i> Go Back</Link></div>
                 <div className={toggleExpanded ? `box expanded-box`: `box`}>
                     {
                         presentation && !loadingPages ?

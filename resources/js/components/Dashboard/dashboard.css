@@ -1,36 +1,60 @@
 a {
     cursor: pointer;
 }
+body {
+    background: #26292d;
+    color: #fff;
+}
 
 /* Dashboard Css Starts */
 .dashboard-section{
     position: relative;
-    padding: 30px 0;
-    background: #fff;
+    padding: 20px 0 10px;
 }
-.dashboard-section a.create-link{
+.dashboard-section .no-presentation {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 150px;
+}
+a.create-link{
     display: block;
     border-radius: 3px;
     max-width: 200px;
     width: 100%;
     margin-left: 15px;
     margin-bottom: 25px;
-    background: #fff;
+    background: #ef743c;
     box-shadow: 0 0 4px rgba(0,0,0,0.6);
     text-align: center;
     line-height: 48px;
     font-size: 18px;
     font-weight: 700;
-    color: #000;
+    color: #fff;
     transition: 0.3s all ease;
     cursor: pointer;
 }
-.dashboard-section a.create-link:hover{
+.box-section a.create-link {
+    margin-left: 0;
+}
+.box-section .model-back-link{
+    margin: 0 auto 15px;
+    max-width: 420px;
+}
+a.create-link:hover{
     text-decoration: none;
     box-shadow: 0 0 8px rgba(0,0,0,0.6);
 }
 .dashboard-section .row > div {
-    margin-bottom: 47px;
+    margin-bottom: 30px;
+}
+.form-section form button {
+    background: #2db3c6;
+    color: #fff;
+}
+.form-section form button:hover {
+    background: #2db3c6;
+    color: #fff;
 }
 .card{
     position: relative;
@@ -40,8 +64,7 @@ a {
     padding: 0 15px 10px;
     color: #000;
     box-shadow: 0 0 4px rgba(0,0,0,0.6);
-    height: 100%;
-    min-height: 300px;
+    min-height: 310px;
     max-width: 300px;
     width: 100%;
     margin: 0 auto;
@@ -56,16 +79,25 @@ a {
     margin: 0 12px;
     font-size: 22px;
     cursor: pointer;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    background: #2db3c6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card .card-top a:hover{
     text-decoration: none;
+    color: #fff;
 }
 .card .card-top a:last-child{
     margin: 0;
 }
 .card .card-top a i.fa{
-    font-size: 22px;
-    color: #000;
+    font-size: 18px;
+    color: inherit;
 }
 .card .card-image{
     margin: 0 -15px 18px;
@@ -76,7 +108,7 @@ a {
     height: 200px;
 }
 .card h4{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 }
@@ -112,12 +144,13 @@ a {
 }
 .card-secondary .cs-content{
     position: relative;
-    height: 20px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .card-secondary .cs-content .cs-audio-links {
-    position: absolute;
-    top: 0;
-    right: 0;
+    
 }
 .card-secondary .cs-content .cs-audio-links a {
     margin: 0 6px;
@@ -164,6 +197,7 @@ a.add-card span {
     line-height: 26px;
     font-weight: 400;
     color: #000;
+    text-transform: capitalize;
 }
 .card .card-audio {
     display: flex;
@@ -219,7 +253,9 @@ a.add-card span {
     background: rgb(255, 64, 129);
     color: #fff;
 }
-
+.card-content {
+    color: rgba(0,0,0,0.6);
+}
 .card-content .card-page-audio {
     width: 215px;
     height: 25px;
@@ -246,13 +282,13 @@ a.add-card span {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 15px 0;
+    margin-bottom: 25px;
 }
 .sorting-content span {
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
-    color: #000;
+    color: #fff;
 }
 .sorting-content .sc-btn {
     margin: 12px 0;
@@ -262,13 +298,14 @@ a.add-card span {
     display: inline-block;
     border-radius: 3px;
     min-width: 122px;
-    background: #fff;
     box-shadow: 0 0 4px rgba(0,0,0,0.6);
     text-align: center;
     line-height: 30px;
     font-size: 15px;
     font-weight: 400;
-    color: #000;
+    background: #2db3c6;
+    color: #fff;
+    border: none;
 }
 .sorting-content .sc-btn input:last-child {
     margin: 0;
@@ -277,20 +314,21 @@ a.add-card span {
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
-    color: #000;
+    color: #fff;
     text-align: center;
     padding: 8px 0;
+}
+.form-section .ck.ck-editor {
+    color: #000;
 }
 /* Box Css Starts */
 .box-section{
     position: relative;
     padding: 30px 0;
-    background: #fff;
     min-height: 100vh;
 }
 .box{
     position: relative;
-    background: #fff;
     border-radius: 6px;
     display: block;
     color: #000;
@@ -298,7 +336,6 @@ a.add-card span {
     max-width: 420px;
     width: 100%;
     margin: 0 auto;
-    min-height: 720px;
 }
 .box.expanded-box {
     position: fixed;
@@ -342,10 +379,78 @@ a.add-card span {
 .box .slick-prev:before, .slick-next:before {
     color: #2a1790 !important;
 }
-.slick-slide img {
+.box .slick-slide img {
     min-height: 658px;
     object-fit: cover;
 }
+.box .slick-list {
+    border-radius: 8px;
+}
+.box .slick-prev, .box .slick-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: #2db3c6;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+}
+.box .slick-arrow:hover, .box .slick-arrow:focus {
+    background: #2db3c6;
+    color: #fff;
+}
+.box .slick-next::before {
+     color: #fff !important;
+    content: "\f105";
+    display: inline-block;
+    font: normal normal normal 32px/1 FontAwesome;
+}
+.box .slick-prev::before {
+     color: #fff !important;
+    content: "\f104";
+    display: inline-block;
+    font: normal normal normal 32px/1 FontAwesome;
+}
+.box .slick-next {
+    right: -65px;
+}
+.box .slick-prev {
+    left: -65px;
+}
+.box .slick-dots {
+    bottom: -35px;
+}
+.box .slick-dots li button::before {
+    font-size: 20px;
+    color: #2db3c6;
+    opacity: 0.5;
+}
+.box .slick-dots li.slick-active button::before{
+    color: #2db3c6;
+    opacity: 1;
+}
+.expanded-box .slick-arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+.expanded-box .slick-next {
+    right: 2%;
+}
+.expanded-box .slick-prev {
+    left: 2%;
+}
+.expanded-box .slick-dots {
+    position: fixed;
+    bottom: 0%;
+    z-index: 999;
+    background: rgba(255,255,255,0.8);
+    padding: 12px 0 20px;
+}
+
 /* Box Css Ends */
 
 

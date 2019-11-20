@@ -111,8 +111,15 @@ class PresentationController extends Controller
         sleep(1);
         $presentation = PresentationUser::where('id', $id)
             ->where('user_id', Auth::user()->id)
-            ->delete();
-        return response()->json(['success' => $presentation ? true: false]);
+            ->first();
+        if($presentation) {
+            \Illuminate\Support\Facades\File::deleteDirectory(storage_path('app/public/presentations/'.$id), false);
+            $delPresentation = PresentationUser::where('id', $id)
+                ->where('user_id', Auth::user()->id)
+                ->delete();
+            return response()->json(['success' => $delPresentation ? true: false]);
+        }
+        return response()->json(['error' => 'Invalid request.'], 400);
 
     }
 

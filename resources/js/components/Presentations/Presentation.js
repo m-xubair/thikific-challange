@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Redirect, Link } from 'react-router-dom';
 import Loader from '../Loader/Loader';
 function Presentation(props) {
-    const {presentation, deletePresentation} = props;
+    const {presentation, deletePresentation, handleDeletePresentation} = props;
     return (
         <div className="col-lg-3 col-sm-6">
             <div className="card">
@@ -10,7 +10,7 @@ function Presentation(props) {
                     <Link to={`/presentation/${presentation.id}/edit`} className="edit-link">
                         <i className="fa fa-pencil-square-o" aria-hidden="true"></i>
                     </Link>
-                    <a onClick={() => deletePresentation(presentation.id)} className="delete-link">
+                    <a onClick={() => handleDeletePresentation('Are you sure you want to delete presentation? All images/audio files will be deleted.', deletePresentation, presentation.id)} className="delete-link">
                         <i className="fa fa-trash-o" aria-hidden="true"></i>
                     </a>
                 </div>

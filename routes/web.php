@@ -16,8 +16,5 @@ Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallb
 Route::get('presentation/{id}/export', 'PresentationController@exportPresentation');
 
 Route::any('{all}', function () {
-//    $pdf = new Spatie\PdfToImage\Pdf(public_path('iq.pdf'));
-//    $pdf->setPage(2)
-//        ->saveImage(public_path('isq.png'));
     return view('welcome');
 })->where('all', '^(?!auth).*$');;

@@ -195,7 +195,7 @@ function PresentationPages(props) {
                 }
                 <Link to={`/presentation/${presentationID}/preview`} className="create-link"> <i className="fa fa-eye"></i> Preview</Link> 
                 <a href={`/presentation/${presentationID}/export`} target="_blank" className="create-link"> <i className="fa fa-file-archive-o"></i> Export</a>                
-                <Link to={`/presentation/${presentationID}/edit`} className="create-link"> <i className="fa fa-arrow-left"></i> Go Back</Link>
+                <Link to={`/dashboard`} className="create-link"> <i className="fa fa-home"></i> Home</Link>
             </div>
             {
                 pdfError ? 
