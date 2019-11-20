@@ -13,6 +13,7 @@
 
 Route::get('auth/{provider}', 'Auth\LoginController@redirectToProvider');
 Route::get('auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');
+Route::get('presentation/{id}/export', 'PresentationController@exportPresentation');
 
 Route::any('{all}', function () {
 //    $pdf = new Spatie\PdfToImage\Pdf(public_path('iq.pdf'));

@@ -6,6 +6,7 @@ use App\PresentationUser;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use Zip;
 
 class PresentationController extends Controller
 {
@@ -113,6 +114,39 @@ class PresentationController extends Controller
             ->delete();
         return response()->json(['success' => $presentation ? true: false]);
 
+    }
+
+    public function exportPresentation($id) {
+        $presentation = PresentationUser::with(['pages' => function($q) {
+                $q->orderBy('sort_order', 'ASC');
+            }, 'user'])
+            ->where('id', $id)
+            ->firstOrFail();
+        $manifest = [];
+        $manifest['author'] = $presentation->user->name;
+        $manifest['date'] = date('Y-m-d H:i:s', strtotime($presentation->created_at));
+        $manifest['name'] = $presentation->name;
+        $manifest['description'] = $presentation->description;
+        $manifest['pages'] = [];
+        $allFiles = [];
+        if($presentation->pages->count() > 0) {
+            foreach($presentation->pages as $page) {
+                $entry = [];
+                $entry['sort'] = $page->sort_order;
+                $entry['image'] = $page->image;
+                $entry['audio'] = $page->audio;
+                $entry['audio_time'] = $page->audio_time;
+                array_push($manifest['pages'], $entry);
+                array_push($allFiles, storage_path('app/public/presentations/'.$id.'/'.$page->image));
+                if($page->audio) {
+                    array_push($allFiles, storage_path('app/public/presentations/'.$id.'/'.$page->audio));
+                }
+            }
+        }
+        $manifestFile = json_encode($manifest, JSON_PRETTY_PRINT);
+        file_put_contents(storage_path('app/public/presentations/'.$id.'/manifest.json'), stripslashes($manifestFile));
+        array_push($allFiles, storage_path('app/public/presentations/'.$id.'/manifest.json'));
+        return Zip::create($id.".zip", $allFiles);
     }
 
     private function rules() {

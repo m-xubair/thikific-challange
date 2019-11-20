@@ -82815,7 +82815,13 @@ function PresentationPages(props) {
     className: "create-link"
   }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-eye"
-  }), " Preview"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }), " Preview"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/presentation/".concat(presentationID, "/export"),
+    target: "_blank",
+    className: "create-link"
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-file-archive-o"
+  }), " Export"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/presentation/".concat(presentationID, "/edit"),
     className: "create-link"
   }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {

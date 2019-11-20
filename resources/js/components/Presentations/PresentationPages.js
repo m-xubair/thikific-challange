@@ -193,7 +193,8 @@ function PresentationPages(props) {
                     <a onClick={handledisableSorting} className="create-link"> <i className="fa fa-sort"></i> Enable Sorting</a>
                     :null
                 }
-                <Link to={`/presentation/${presentationID}/preview`} className="create-link"> <i className="fa fa-eye"></i> Preview</Link>                
+                <Link to={`/presentation/${presentationID}/preview`} className="create-link"> <i className="fa fa-eye"></i> Preview</Link> 
+                <a href={`/presentation/${presentationID}/export`} target="_blank" className="create-link"> <i className="fa fa-file-archive-o"></i> Export</a>                
                 <Link to={`/presentation/${presentationID}/edit`} className="create-link"> <i className="fa fa-arrow-left"></i> Go Back</Link>
             </div>
             {

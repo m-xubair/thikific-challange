@@ -14,6 +14,7 @@
         "laravel/socialite": "^4.2",
         "laravel/tinker": "^1.0",
         "spatie/pdf-to-image": "^1.8",
+        "stechstudio/laravel-zipstream": "^1.7",
         "tymon/jwt-auth": "dev-develop",
         "webpatser/laravel-uuid": "^3.0"
     },
