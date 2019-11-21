@@ -81525,7 +81525,7 @@ function Dashboard(props) {
       setPresentation(data);
       setLoading(false);
     })["catch"](function (err) {
-      if (err && err.status === 400) {
+      if (err && err.status === 403) {
         props.history.push('/');
       }
     });
@@ -82128,7 +82128,7 @@ function Presentation(props) {
     alt: ""
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, presentation.name))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, presentation.name.length > 25 ? presentation.name.substr(0, 25) + '...' : presentation.name))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Presentation);
